@@ -16,12 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body>
-        <Theme
-          appearance="dark"
-          accentColor="orange"
-          grayColor="sage"
-          radius="small"
-        >
+        <Theme appearance="light" accentColor="green" grayColor="sage">
           {children}
         </Theme>
       </body>
