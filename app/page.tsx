@@ -1,14 +1,12 @@
-import Contact from "@/components/Contact/Contact";
-import { Nav } from "@/components/Nav/Nav";
-import { Container } from "@radix-ui/themes";
-
-export default function Home() {
+import { Section } from "@/components/HeroSection";
+import Nav from "@/components/Nav";
+import { ProductCards } from "@/components/ProductCards";
+export default function HomePage() {
   return (
-    <main>
-      <Container maxWidth={"1196px"}>
-        <Contact />
-      </Container>
+    <>
       <Nav />
-    </main>
+      <Section />
+      <ProductCards />
+    </>
   );
 }

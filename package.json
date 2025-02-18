@@ -1,5 +1,5 @@
 {
-  "name": "radoslaw-rup",
+  "name": "kolor-motip",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,27 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-navigation-menu": "^1.2.5",
-    "@radix-ui/themes": "^3.1.6",
-    "class-variance-authority": "^0.7.1",
+    "@radix-ui/react-context-menu": "^2.2.2",
+    "@radix-ui/react-scroll-area": "^1.2.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.475.0",
-    "next": "15.1.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sass": "^1.85.0",
-    "tailwind-merge": "^3.0.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.381.0",
+    "next": "^15",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.3",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-tailwindcss": "^3.17.0",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.16",
     "typescript": "^5"
   }
 }
